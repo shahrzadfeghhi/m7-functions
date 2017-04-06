@@ -1,8 +1,9 @@
-# Exercise 2: writing and executing functions (II)
-
-# Write a function `CompareLength` that takes in 2 vectors, and returns the sentence:
-# "The difference in lengths is N"
-
+comparelength <- function(v1, v2){
+  
+  diff <- length(v1) - length(v2)
+  return(diff)
+  
+}
 
 # Pass two vectors of different length to your `CompareLength` function
 
